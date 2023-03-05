@@ -47,10 +47,16 @@ public class ServizioFigure {
         Figura[] figure=new Figura[f.length+f1.length];
         int z=0;
         for(int i=0; i<f.length; i++){
+            if(f[i]==null){
+                continue;
+            }
             figure[z]=f[i];
             z++;
         }
         for(int i=0; i<f1.length; i++){
+            if(f1[i]==null){
+                continue;
+            }
             figure[z]=f1[i];
             z++;
         }
