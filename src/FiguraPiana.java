@@ -3,9 +3,7 @@ abstract public class FiguraPiana extends Figura{
     public FiguraPiana() {
         super("Figura Piana");
     }
-    public double getArea(){
-        return area;
-    }
+    abstract public double getArea();
     public boolean contiene(double x,double y){
         return false;
     }

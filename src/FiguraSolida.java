@@ -3,7 +3,5 @@ abstract public class FiguraSolida extends Figura{
     public FiguraSolida() {
         super("Figura solida");
     }
-    public double getVolume(){
-        return volume;
-    }
+    abstract public double getVolume();
 }
