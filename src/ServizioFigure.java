@@ -3,7 +3,7 @@ public class ServizioFigure {
         double somma=0;
         for(int i=0; i<f.length; i++){
             if(f[i]==null){
-                break;
+                continue;
             }
             somma+=f[i].getArea();
         }
@@ -35,7 +35,7 @@ public class ServizioFigure {
         double somma=0;
         for(int i=0; i<f.length; i++){
             if(f[i]==null){
-                break;
+                continue;
             }
             else if(f[i] instanceof FiguraSolida){ //f[i].getTipo().equals("Figura solida")
                 somma+=((FiguraSolida) f[i]).getVolume();
