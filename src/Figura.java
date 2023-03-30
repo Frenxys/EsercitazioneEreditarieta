@@ -1,5 +1,5 @@
 abstract public class Figura {
-     private String tipo;
+    private String tipo;
     public Figura(String tipo){
         setTipo(tipo);
     }

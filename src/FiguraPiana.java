@@ -1,5 +1,4 @@
 abstract public class FiguraPiana extends Figura{
-    protected double area;
     public FiguraPiana() {
         super("Figura Piana");
     }
